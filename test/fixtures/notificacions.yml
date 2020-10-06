@@ -1,0 +1,33 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  nombre: MyString
+  apellido: MyString
+  edad: 1
+  sexo: MyString
+  fecha_notificacion: 2020-10-05
+  fecha_sintoma: 2020-10-05
+  barrio: one
+  cuidad: one
+  distrito: one
+  lonlat: 
+  estado: false
+  arbo: one
+  serotipo: one
+  laboratorio_usuario: one
+
+two:
+  nombre: MyString
+  apellido: MyString
+  edad: 1
+  sexo: MyString
+  fecha_notificacion: 2020-10-05
+  fecha_sintoma: 2020-10-05
+  barrio: two
+  cuidad: two
+  distrito: two
+  lonlat: 
+  estado: false
+  arbo: two
+  serotipo: two
+  laboratorio_usuario: two

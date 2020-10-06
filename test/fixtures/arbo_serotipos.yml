@@ -1,0 +1,9 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  arbo: one
+  serotipo: one
+
+two:
+  arbo: two
+  serotipo: two

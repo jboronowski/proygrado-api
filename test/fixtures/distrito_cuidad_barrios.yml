@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  barrio: one
+  cuidad: one
+  distrito: one
+
+two:
+  barrio: two
+  cuidad: two
+  distrito: two
