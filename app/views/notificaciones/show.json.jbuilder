@@ -1,4 +1,3 @@
-
 json.array! @notificaciones do |notificacion|
 json.type "FeatureCollection"
 json.features 

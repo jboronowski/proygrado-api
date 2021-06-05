@@ -1,10 +1,10 @@
 class NotificacionSerializer
   include JSONAPI::Serializer
 
-  attributes :nombre, :apellido,:edad,:sexo,:fecha_notificacion,:fecha_sintoma,:estado
-  belongs_to :barrio
-  belongs_to :cuidad
-  belongs_to :distrito
-  belongs_to :arbo
-  belongs_to :serotipo
+  attributes :nombre, :apellido,:edad,:sexo,:fecha_notificacion,:fecha_sintoma,:estado,:lonlat
+  belongs_to :barrio, serializer: BarrioSerializer
+  belongs_to :cuidad, serializer: CuidadSerializer
+  belongs_to :distrito, serializer: DistritoSerializer
+  belongs_to :arbo, serializer: ArboSerializer
+  belongs_to :serotipo, serializer: SerotipoSerializer
 end

@@ -1,0 +1,3 @@
+class TempDistrito < ApplicationRecord
+	
+end

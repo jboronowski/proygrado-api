@@ -15,9 +15,9 @@ end
 Distrito.populate 3 do |u|
 u.nombre =['Encarnacion','Cambyreta','Fram'].sample
 end
-Arbo.populate 3 do |u|
-u.nombre =['Dengue','Zika','Chikungunya'].sample
-end
+Arbo.create(nombre: 'Dengue')
+Arbo.create(nombre: 'Zika')
+Arbo.create(nombre: 'Chikungunya')
 Serotipo.populate 3 do |u|
 u.nombre =['Chik','Den1','ZIKV'].sample
 end
@@ -33,7 +33,7 @@ Notificacion.populate 100 do |u|
   u.estado = Faker::Boolean.boolean
   u.arbo_id =Faker::Number.between(from: 1, to: 3)
   u.serotipo_id =Faker::Number.between(from: 1, to: 3)
-            u.barrio_id =Faker::Number.between(from: 1, to: 2)
+            u.barrio_id =Faker::Number.between(from: 1, to: 3)
             u.distrito_id =Faker::Number.between(from: 1, to: 3)
             u.cuidad_id =Faker::Number.between(from: 1, to: 3)
             u.lonlat = my_factory.point(Faker::Number.between(from: -55.862131118774414, to: -55.87577819824219),Faker::Number.between(from: -27.32282243746613, to: -27.360333521009597)) 
